@@ -6,6 +6,23 @@
 -- ÈÑÒÎÐÈß ÂÅÐÑÈÉ:
 -- 14.12.2018 USER - Ïåðâàÿ âåðñèÿ 
 
+---------------------------------------------------------------
+----                  links
+---------------------------------------------------------------
+/* 
+How to Create a User and Grant Permissions in Oracle
+  https://chartio.com/resources/tutorials/how-to-create-a-user-and-grant-permissions-in-oracle/
+  
+	
+Create tablespace in Oracle
+  http://www.adp-gmbh.ch/ora/sql/create_tablespace.html  
+  
+  
+ /**/
+
+---------------------------------------------------------------
+----                  SQLs
+---------------------------------------------------------------
 
 -- -- Grant/Revoke object privileges 
 grant all on scott.emp to vshestakov;
