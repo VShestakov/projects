@@ -8,9 +8,9 @@
 
 
 -- -- Grant/Revoke object privileges 
-GRANT all ON scott.emp TO VSHESTAKOV;
-grant select, insert, update, delete, references, alter, index, debug on SCOTT.EMP to vshestakov;
-revoke all on scott.DEPT from vshestakov;
+grant all on scott.emp to vshestakov;
+grant select, insert, update, delete, references, alter, index, debug on scott.emp to vshestakov;
+revoke all on scott.dept from vshestakov;
 
 --select any table to vshestakov;
 
