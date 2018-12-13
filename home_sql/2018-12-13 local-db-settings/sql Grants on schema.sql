@@ -18,8 +18,8 @@ revoke all on scott.dept from vshestakov;
 begin
   -- Выдача прав на все таблицы схемы пользователю
   for rec in (
-    select --'grant all on ' || o.owner || '.' || o.table_name || ' TO VSHESTAKOV' as s
-           'revoke all on ' || o.owner || '.' || o.table_name || ' from VSHESTAKOV' as s
+    select 'grant all on ' || o.owner || '.' || o.table_name || ' TO VSHESTAKOV' as s
+           --'revoke all on ' || o.owner || '.' || o.table_name || ' from VSHESTAKOV' as s
       from ALL_TABLES o where o.owner = 'SCOTT'
   ) loop
     execute immediate rec.s;
